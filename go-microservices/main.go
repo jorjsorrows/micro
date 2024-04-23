@@ -29,7 +29,7 @@ func TimeHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func IPHandler(w http.ResponseWriter, r *http.Request) {
-	log.Println("In alan now")
+	log.Println("In IP now")
 	hostname, err := details.GetHostname()
 	if err != nil {
 		panic(err)
